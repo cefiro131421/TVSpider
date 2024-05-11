@@ -64,7 +64,7 @@ jobs:
           repository: ${{ secrets.GE_PATH }}
           directory: .
           branch: js
-          force: true
+          force: false
           github_url: https://gitee.com
         env:
           GITHUB_ACTOR: ${{ secrets.GH_ACTOR }}
